@@ -80,13 +80,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laracasts
-                </div>
-
-                <ul>
-                    @foreach ($tasks as $task)
-                        <li>{{ $task->body }}</li>
-                    @endforeach
-                </ul>
+                </div>                
             </div>
         </div>
     </body>
